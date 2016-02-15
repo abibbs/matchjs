@@ -1,0 +1,14 @@
+.col-sm-4 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.bootstrap .tags .tag-item {
+  background:  #ee887a;
+  color: #fff;
+}
+
+#connectContainer {
+  min-height: 450px;
+  margin-bottom: 7%;
+}

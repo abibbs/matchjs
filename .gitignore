@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+.env
+client/bower_components
+
+# Build files
+dist/
+
+npm-debug.log

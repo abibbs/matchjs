@@ -1,0 +1,217 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.miniPanel {
+  height: 60px !important;
+  margin-bottom: 10px !important; 
+}
+
+.miniPanelBody {
+  padding: 10px !important;
+  cursor: pointer;
+  overflow: hidden !important;
+}
+
+.miniPanel:hover {
+  background-color: #f5f5f5 !important;
+  overflow: hidden !important;
+}
+
+.panel-body .mainPanel {
+  max-height: 1000px !important;
+}
+
+.tabbedPanel {
+  overflow-y: scroll !important;
+  max-height: 385px !important; 
+}
+
+.followUsername {
+  padding-left: 10px !important;
+}
+
+.invitationsPanelBody {
+  overflow-y: scroll !important;
+  max-height: 724.5px !important;
+}
+
+.followPanel {
+  overflow-y: scroll !important;
+  max-height: 385px !important; 
+}
+
+.profileBasics {
+  margin-top: 20px;
+  float: right;
+}
+
+.profileStyle h4 {
+  font-size: 16px;
+}
+
+.bio h4 {
+  margin-bottom:0;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.profileBasics h4 {
+  margin-bottom:0;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.profileSkills h4 {
+  margin-bottom:0;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+/*.editButton {
+  margin-top: 0px;
+  float: right;
+}*/
+
+.profileBasics .editButton {
+  float: right;
+  margin-right: 30px;
+}
+
+.bio .editButton {
+  margin-right: -12px;
+}
+
+.invitations .editButton {
+  float: right;
+  margin-right: 30px;
+}
+
+.invitations {
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    border-radius: .28571429rem;
+    border: 1px solid rgba(34,36,38,.15);
+}
+
+.otherUserProfileActionButtons {
+  margin-top: 10px;
+  /*margin: 0, auto !important;*/
+/*  position: relative;*/
+  /*width: 100%;*/
+}
+
+.center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html, body, .container-table {
+  height: 100%;
+}
+.container-table {
+  display: table;
+}
+.vertical-center-row {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.otherUserProfilePhoto {
+  width: 232px;
+  height: 232px;
+}
+
+.bio .container {
+  width: 100%;
+}
+
+.otherUserProfile .container {
+  width: 100%;
+}
+
+.checkbox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+.btn-success {
+  background-color: #070657 !important;
+}
+
+.btn-danger {
+  background-color: #36624B !important;
+}
+
+.btn-primary {
+  background-color: #430647 !important;
+}
+
+.glyphicon {
+  color: #000000 !important;
+}
+
+.checkbox.btn-default {
+  background-color: #ffffff !important;
+  border-color: #DFD7CA !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+}
+
+/*.checkbox.btn-default:checked <-- doesn't seem to be doing anything*/
+.checkbox-inline .btn-default:focus,
+.checkbox-inline .btn-default:active:focus,
+.checkbox-inline .btn-default:active:hover {
+  background-color: #ffffff !important;
+}
+.checkbox.btn-default:hover,
+.checkbox.btn-default:active {
+  background-color: #ffffff !important;
+  border-color: #DFD7CA !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+}
+
+.checkbox-inline .checkbox[disabled],
+.checkbox-inline .checkbox[disabled]:hover,
+.checkbox-inline .checkbox[disabled]:active,
+.checkbox-inline .checkbox[disabled]:focus,
+.checkbox-inline .checkbox[disabled]:active:focus,
+.checkbox-inline .checkbox[disabled]:active:hover {
+  background: #ffffff !important;
+  border-color: #DFD7CA !important;
+}
+
+.open>.dropdown-toggle.selectBar-default {
+  background-color: #ffffff !important;
+  border-color: #DFD7CA !important;
+}
+
+.checkbox-inline+.checkbox-inline {
+  margin-left: 0;
+}
+
+.checkbox-inline .checkbox {
+    margin-right: 3px;
+}
+
+.checkbox-inline {
+  padding-left: 0;
+  width: 114px;
+}
+
+.checkbox:hover{
+  background-color: #98978b;
+} 
+
+.checkbox:disabled:hover{
+  background-color: #dfd7ca;
+}
+
+.row {
+  height: auto;
+}
